@@ -28,10 +28,12 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
+      <TouchableHighlight>
+        <Fragment>
+          <Text>Label</Text>
+          <Icon />
+        </Fragment>
+      </TouchableHighlight>
     </View>
   );
 }
